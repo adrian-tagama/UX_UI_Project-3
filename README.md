@@ -14,6 +14,6 @@
 * Google Drive
 * Trello
 ## Overview
-your description of the project
+A 3-week group project with the focus of an iOS app that helps users to manage bills and subscriptions for day to day life.
 ## GitHub Website
 https://adrian-tagama.github.io/final_sub-tracker
