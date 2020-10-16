@@ -1,13 +1,19 @@
 <!-- This is ReadMe file -->
-# project title name here
+# WhatSub Subscription Management
 ### Group 4 Contributors
-* list each members
+* Lois Chen
+* Adrian Tagama
+* Roxy Shang
+* Gilad Shahar
+* Keith Cheung
+* Jacky Yang
 ### Tools Used
-* add
-* your
-* list
-* here
+* Figma
+* Invision
+* Miro
+* Google Drive
+* Trello
 ## Overview
 your description of the project
 ## GitHub Website
-https://adrian-tagama.github.io/final_sub-tracker/
+https://adrian-tagama.github.io/final_sub-tracker
