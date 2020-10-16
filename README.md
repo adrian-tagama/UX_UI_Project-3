@@ -6,7 +6,7 @@
 * Roxy Shang
 * Gilad Shahar
 * Keith Cheung
-* Jacky Yang
+* Jacky Young
 ### Tools Used
 * Figma
 * Invision
