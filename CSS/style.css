@@ -1,1 +1,144 @@
-css
+@import url(//db.onlinewebfonts.com/c/05078759185c986d15c17e7ee8deff43?family=DINPro-Bold);
+
+@font-face {font-family: "DINPro-Bold";
+    src: url("//db.onlinewebfonts.com/t/05078759185c986d15c17e7ee8deff43.eot");
+    src: url("//db.onlinewebfonts.com/t/05078759185c986d15c17e7ee8deff43.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/05078759185c986d15c17e7ee8deff43.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/05078759185c986d15c17e7ee8deff43.woff") format("woff"), url("//db.onlinewebfonts.com/t/05078759185c986d15c17e7ee8deff43.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/05078759185c986d15c17e7ee8deff43.svg#DINPro-Bold") format("svg"); }
+body {
+    margin:0;
+}
+
+/* Text Styles */
+h1 {
+    font-family: 'DINPro-Bold';
+    font-size: 48pt !important;
+}
+.display-3 {
+    color: white;
+}
+.lead { 
+    font-size: 24pt;
+    color: white;
+    max-width: 1000px;
+}
+h2 {
+    font-family: 'DINPro-Bold';
+    font-size: 36pt;
+    padding: 100px;
+}
+
+h3 {
+    font-family: 'DINPro-Bold';
+}
+
+p {
+    font-family: 'Lato';
+    font-size: 18pt;
+}
+li{
+    font-family: 'Lato';
+}
+
+.center-content {
+    justify-content: center;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+/* Containers */
+.jumbotron {
+    height: 100vh;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 8px 0px 8px 0px;
+    max-width: 1800px;
+    background-color: #3B428E;
+    border-radius: 20px 20px 20px 20px;
+    padding: 24px;
+}
+.container-fluid {
+    margin: auto;
+}
+
+.col {
+    max-width: 900px !important;
+}
+
+/* Buttons */
+button {
+    margin-left: 24px;
+    margin-right: 24px;
+    width: 350px;
+    height: 60px;
+    border-radius: 10px;
+    border: none;
+}
+
+.app-store-button {
+    background-color: #6CC7FF;
+}
+
+.play-store-button {
+    background-color: #FFB225;
+}
+
+/* Nav */
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+}
+.navbar-brand {
+    margin-right: 180px;
+}
+#navbarSupportedContent {
+    margin-left:180px;
+}
+.nav-item {
+    padding-right: 24px;
+}
+
+/* Images */
+img {
+    max-width: 400px;
+}
+
+/* FOOTER */
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    height: 100px;
+    background-color: white;
+    color: black;
+}
+footer ul {
+    list-style: none;
+    padding: 20px;
+    padding-left: 240px;
+    font-size: 10pt;
+}
+footer:before{
+    content:"";
+    display:block;
+    width: 1200px;
+    border-top: 1px solid gray;
+    align-items: flex-start;
+    margin-left: 220px;
+    margin-top: 40px;
+}
+footer li {
+    display: inline;
+    padding-right: 10px;
+}
+
+#copyright {
+    width: 12px;
+    vertical-align: center;
+    display: inline;
+}
