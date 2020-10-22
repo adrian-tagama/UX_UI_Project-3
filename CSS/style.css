@@ -20,6 +20,9 @@ h1 {
     color: white;
     max-width: 1000px;
 }
+.feature-header {
+    padding-top: 200px;
+}
 h2 {
     font-family: 'DINPro-Bold';
     font-size: 36pt;
@@ -62,30 +65,32 @@ li{
 .container-fluid {
     margin: auto;
 }
-
+.row {
+    padding-bottom: 100px;
+}
 .col {
     max-width: 900px !important;
 }
 
 /* Buttons */
 button {
-    margin-left: 24px;
-    margin-right: 24px;
-    width: 350px;
-    height: 60px;
+    width: 300px;
+    height: 50px;
     border-radius: 10px;
-    border: none;
-}
-
-.app-store-button {
-    background-color: #6CC7FF;
-}
-
-.play-store-button {
     background-color: #FFB225;
+    border: none;
+    font-family: 'DINPro';
+    font-size: 18pt;
+}
+.store-button {
+    width: 300px;
+    margin-top: -150px;
 }
 
 /* Nav */
+.bg-dark {
+    background-color: #3B428E !important;
+}
 .nav-container {
     display: flex;
     flex-direction: row;
@@ -93,6 +98,9 @@ button {
 }
 .navbar-brand {
     margin-right: 180px;
+}
+.nav-logo {
+    width: 60%;
 }
 #navbarSupportedContent {
     margin-left:180px;
@@ -116,12 +124,17 @@ footer {
     background-color: white;
     color: black;
 }
+.footer-copyright {
+    margin-right: 200px;
+}
+.footer-logo {
+    width: 100px;
+}
 footer ul {
     list-style: none;
-    padding: 20px;
-    padding-left: 240px;
-    font-size: 10pt;
+    text-align: center;
 }
+
 footer:before{
     content:"";
     display:block;
@@ -132,7 +145,8 @@ footer:before{
 }
 footer li {
     display: inline;
-    padding-right: 10px;
+    padding: 10px;
+    vertical-align: middle;
 }
 
 #copyright {
