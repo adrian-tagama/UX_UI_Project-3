@@ -15,7 +15,7 @@ h1 {
 .display-3 {
     color: white;
 }
-.lead { 
+.lead {
     font-size: 24pt;
     color: white;
     max-width: 1000px;
@@ -53,7 +53,7 @@ li{
 .jumbotron {
     height: 100vh;
 }
-.container {
+.jumbotron .container {
     display: flex;
     justify-content: center;
     padding: 8px 0px 8px 0px;
