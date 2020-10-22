@@ -7,6 +7,19 @@ body {
     margin:0;
 }
 
+.preloader {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: 100000;
+    background-color: #ECEFF5;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* Text Styles */
 h1 {
     font-family: 'DINPro-Bold';
@@ -52,15 +65,22 @@ li{
 /* Containers */
 .jumbotron {
     height: 100vh;
+    background-image: url("../images/hero-image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
 }
 .jumbotron .container {
     display: flex;
     justify-content: center;
     padding: 8px 0px 8px 0px;
-    max-width: 1800px;
-    background-color: #3B428E;
-    border-radius: 20px 20px 20px 20px;
+    max-width: 100%;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,0.8337710084033614) 0%, rgba(0,0,0,0.48923319327731096) 83%, rgba(0,0,0,0) 100%); 
     padding: 24px;
+    padding-bottom: 24px;
+    margin-bottom: -65px;
 }
 .container-fluid {
     margin: auto;
@@ -69,8 +89,10 @@ li{
     padding-bottom: 100px;
 }
 .col {
-    max-width: 900px !important;
+    max-width: 800px !important;
 }
+
+
 
 /* Buttons */
 button {
@@ -88,6 +110,9 @@ button {
 }
 
 /* Nav */
+nav {
+    height: 50px;
+}
 .bg-dark {
     background-color: #3B428E !important;
 }
@@ -100,7 +125,7 @@ button {
     margin-right: 180px;
 }
 .nav-logo {
-    width: 60%;
+    width: 50%;
 }
 #navbarSupportedContent {
     margin-left:180px;
@@ -111,7 +136,7 @@ button {
 
 /* Images */
 img {
-    max-width: 400px;
+    width: 400px;
 }
 
 /* FOOTER */
